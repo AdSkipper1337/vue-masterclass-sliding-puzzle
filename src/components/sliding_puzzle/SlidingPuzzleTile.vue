@@ -40,7 +40,7 @@ function move() {
   /* we are sizing down the tiles to be fractions of the whole */
   width: calc(100% / v-bind(tiling));
   height: calc(100% / v-bind(tiling));
-  background-image: url("gnosticism.png");
+  background-image: url("/gnosticism.png");
   background-size: calc(100% * v-bind(tiling));
   /* now we are offsetting the texture by the position x and y again */
   background-position-x: calc(
